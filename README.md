@@ -12,3 +12,12 @@ bcdedit /set hypervisorlaunchtype off
 ```
 Disable-WindowsOptionalFeature -Online -FeatureName Microsoft-Hyper-V-All
 ```
+## Включение виртуализации
+1. В cmd запустить команду:
+```
+bcdedit /set hypervisorlaunchtype auto
+```
+2. С помощью powershell активировать Hyper-V:
+```
+Enable-WindowsOptionalFeature -Online -FeatureName Microsoft-Hyper-V-All
+```
