@@ -21,3 +21,6 @@ bcdedit /set hypervisorlaunchtype auto
 ```
 Enable-WindowsOptionalFeature -Online -FeatureName Microsoft-Hyper-V-All
 ```
+
+> [!IMPORTANT]
+> Все команды следует выполнять от имени администратора.
