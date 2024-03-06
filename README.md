@@ -4,7 +4,7 @@
 ## Выключение виртуализации для VMWare Workstation
 
 1. Деактивировать Hyper-V в настройках компонентов windows
-2. С помощью cmd запустить команду: 
+2. С помощью cmd или powershell запустить команду: 
 ```
 bcdedit /set hypervisorlaunchtype off
 ```
@@ -13,7 +13,7 @@ bcdedit /set hypervisorlaunchtype off
 Disable-WindowsOptionalFeature -Online -FeatureName Microsoft-Hyper-V-All
 ```
 ## Включение виртуализации
-1. В cmd запустить команду:
+1. В cmd или powershell запустить команду:
 ```
 bcdedit /set hypervisorlaunchtype auto
 ```
